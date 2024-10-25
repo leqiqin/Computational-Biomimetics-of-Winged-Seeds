@@ -51,7 +51,7 @@ Download winged-seeds models recontructed by LDDMM shooting [here](datasets/wing
 
 Each shooting mesh is denoted by "seed{a}{b}.ply", where {a} is an identifier for its species and {b} represents its sequential number within that species. 
 
-### Species Identifier and its scientific name. 
+### Species Identifier and its scientific name
 
 | Identifier | Species                    |
 |------------|----------------------------|
