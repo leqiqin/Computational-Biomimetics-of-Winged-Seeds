@@ -37,7 +37,7 @@ python optimize_fabrication.py
 ```
 
 ## Visualization of the Shape Space
-Shooting data of the seeds are included in the data/shooting directory. We provide a visualization program based on Polyscope, which allows you to explore the shape space spanned by the seeds. To visualize the shape space, run
+Shooting data of the seeds are included in the data/shooting directory. We provide a visualization program based on [Polyscope](https://polyscope.run/), which allows you to explore the shape space spanned by the seeds. To visualize the shape space, run
 ```
 python shape_space.py
 ```
