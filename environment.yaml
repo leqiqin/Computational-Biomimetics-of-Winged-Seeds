@@ -1,0 +1,30 @@
+name: samara
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - matplotlib=3.8.4=py310h06a4308_0
+  - matplotlib-base=3.8.4=py310h1128e8f_0
+  - numpy=1.26.4=py310h5f9d8c6_0
+  - numpy-base=1.26.4=py310hb5e798b_0
+  - python=3.10.14=h955ad1f_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - pytorch=2.0.0=py3.10_cuda11.8_cudnn8.7.0_0
+  - pytorch-cuda=11.8=h7e8668a_5
+  - pytorch-mutex=1.0=cuda
+  - torchaudio=2.0.0=py310_cu118
+  - torchtriton=2.0.0=py310
+  - torchvision=0.15.0=py310_cu118
+  - tornado=6.3.3=py310h5eee18b_0
+  - tqdm=4.66.4=py310h2f386ee_0
+  - pip:
+      - cma==3.3.0
+      - keopscore==2.2.3
+      - meshio==5.3.5
+      - meshtaichi-patcher==0.0.19
+      - plotly==5.22.0
+      - potpourri3d==1.0.0
+      - pyevtk==1.6.0
+      - pykeops==2.2.3
+      - taichi==1.7.0
